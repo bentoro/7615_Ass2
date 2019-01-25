@@ -1,0 +1,6 @@
+     1 00000000 FFFFFFFF                tmp     dd  -1
+     2 00000004 FFFEFDFC                pixels  db  00FFh, 0FEh, 0FDh, 0FCh
+     3 00000008 0000                    i       dw  0
+     4 0000000A 68656C6C6F00            message db  "h",    "e",    "llo",  0
+     5 00000010 00<rept>                buffer  times 8     db  0
+     6 00000018 FE000000                max     dd      254

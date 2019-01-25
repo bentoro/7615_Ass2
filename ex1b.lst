@@ -1,0 +1,5 @@
+     1 00000000 FD<rept>                pixels      times   4   db  0FDh
+     2 00000004 D3153617                x           dd      00010111001101100001010111010011b
+     3 00000008 6164626800              blurb       db      "ad",   "b",    "h", 0
+     4 0000000D 0C<rept>                buffer      times   10  db  14o
+     5 00000017 EDFF                    min         dw      -19

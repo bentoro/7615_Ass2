@@ -1,0 +1,5 @@
+     1 00000000 B8DDCCBBAA              mov	eax, 0AABBCCDDh
+     2                                  mov	[M1], eax
+     2          ******************       error: symbol `M1' undefined
+     3                                  mov 	ebx, [M1]
+     3          ******************       error: symbol `M1' undefined

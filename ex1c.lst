@@ -1,0 +1,4 @@
+     1 00000000 F7FFFFFF                var1    dd  -9
+     2 00000004 64636261                var2    db  "dcba"
+     3 00000008 0300<rept>              a1      times   3   dw  011b
+     4 0000000E A300                    wt      db  0A3h,   0
